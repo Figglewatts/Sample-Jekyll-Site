@@ -1,62 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IM+Fell+DW+Pica|IM+Fell+English+SC');
+
+html {
+	background-color: #F8ECC2;
+}
+
 body {
-    font-size: 12px;
-    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-    color:#564b47;  
-    padding-left: 50px;
-    padding-right: 20%;
+	font-size: 12px;
+	font-family: 'IM Fell DW Pica', serif;
+	color:#564b47;  
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'IM Fell Englsh SC', serif;
 }
 
 body>header h1>a {
-    color:#564b47;
-    text-decoration: none;
+	color:#564b47;
+	text-decoration: none;
 }
 
 body>header h4 {
-    margin-top: -10px;
+	margin-top: -10px;
 }
 
 h1,h2,h3,h4 {
-    width: 100%;
-    min-width: 840px;
+	width: 100%;
+	min-width: 840px;
 }
 
 hr {
-    margin-left: 0;
-    padding-left: 0;
+	margin-left: 0;
+	padding-left: 0;
 	width: 100%;
 	min-width: 840px;
 }
 
 pre {
-    background-color: #E8E8E8;
-    margin-left: 30px;
-    padding: 5px;
-    width: 80%;
+	background-color: #E8E8E8;
+	margin-left: 30px;
+	padding: 5px;
+	width: 80%;
+	font-family: 'Anonymous Pro', monospace;
 }
 
 code {
-    background-color: #E8E8E8;
-    padding-left: 3px;
-    padding-right: 3px;
+	background-color: #E8E8E8;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 pre {
-    background-color: #E8E8E8;
-    margin-left: 30px;
-    padding: 5px;
-    width: 80%;
+	background-color: #E8E8E8;
+	margin-left: 30px;
+	padding: 5px;
+	width: 80%;
 }
 
 table {
-    border: none;
+	border: none;
 }
 
 td {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 a:hover {
-    color: #696969;
+	color: #696969;
 }
 
 main {
@@ -76,16 +89,16 @@ nav {
 nav a,
 nav a:visited,
 nav a:active {
-    color: blue;
+	color: blue;
 }
 
 nav a:hover {
-    color: #696969;
+	color: #696969;
 }
 
 nav li {
-    margin-left: -25px;
-    list-style: none;
+	margin-left: -25px;
+	list-style: none;
 }
 
 footer {
@@ -100,12 +113,12 @@ article {
 article h2>a,
 article h2>a:visited,
 article h2>a:active {
-    text-decoration: none;
-    color: blue;
+	text-decoration: none;
+	color: blue;
 }
 
 article h2>a:hover {
-    color: #696969;
+	color: #696969;
 }
 
 article .entry {
@@ -114,10 +127,10 @@ article .entry {
 }
 
 article .entry img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
 article header span {
@@ -127,21 +140,21 @@ article header span {
 }
 
 article header h2 {
-    margin-bottom: 3px;
+	margin-bottom: 3px;
 }
 
 section address {
-    margin-left: 15px;
+	margin-left: 15px;
 }
 
 #paginator {
-    padding: 10px;
+	padding: 10px;
 }
 
 #paginator a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .more {
-    margin-left: 80%;
+	margin-left: 80%;
 }
