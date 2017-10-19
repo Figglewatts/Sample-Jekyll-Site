@@ -27,7 +27,7 @@ hr {
 	border-image-source: url('{{site.url}}/resources/img/dots.svg');
 	border-image-slice: 33% 33%;
 	border-image-repeat: round;
-	border-width: 0 0 4px 0;
+	border-width: 0 0 3px 0;
 }
 
 h1,h2,h3,h4,h5,h6 * {
@@ -60,11 +60,11 @@ body>header h4 {
 body>header h1 hr {
 	overflow: visible; /* For IE */
 	padding: 0;
-	border: none;
 	margin: 0 auto;
 	text-align: center;
 	width: 250px;
 	min-width: 250px;
+	border-width: 0 0 4px 0;
 }
 
 h1,h2,h3,h4 {
