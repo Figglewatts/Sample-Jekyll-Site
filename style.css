@@ -9,7 +9,6 @@ body {
 	font-family: 'IM Fell DW Pica', serif;
 	color:#564b47;  
 	padding-left: 20%;
-	padding-right: 20%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -29,7 +28,7 @@ body>header h1 {
 
 body>header h1>a {
 	text-decoration: none;
-	font-size: 3em;
+	font-size: 2em;
 	color: #252525;
 }
 
@@ -41,7 +40,7 @@ body>header h4 {
 	text-align: center;
 }
 
-body>header h1>hr {
+body>header h1 hr {
 	overflow: visible; /* For IE */
 	padding: 0;
 	border: none;
