@@ -83,7 +83,7 @@ body>header h1 hr {
 	margin-top: -10px;
 }
 
-div #wrapper {
+div#wrapper {
 	min-height: calc(100% - 150px);
 	margin-bottom: -50px;
 }
