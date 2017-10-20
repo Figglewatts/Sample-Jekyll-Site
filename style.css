@@ -77,11 +77,11 @@ h1,h2,h3,h4 {
 
 pre {
 	padding: 5px;
-	width: 80%;
 	border-left: 2px solid #bbb;
 	padding-left: 10px;
 	padding-bottom: 8px;
 	margin-left: 20px;
+	overflow-x: scroll;
 }
 
 code {
@@ -190,6 +190,12 @@ article header h2 {
 	margin-bottom: 3px;
 }
 
+/* drop caps */
+entry p:first-child:first-letter {
+	float: left;
+	font-size: 100px;
+}
+
 section address {
 	margin-left: 15px;
 }
@@ -227,15 +233,21 @@ blockquote p {
 
 @media (orientation: portrait) {
 	body {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	main {
-		font-size: 28px;
+		font-size: 32px;
 	}
 
 	nav {
+		font-size: 28px;
+		width: 200px;
+		min-width: 200px;
+	}
+
+	code {
 		font-size: 22px;
 	}
 }
