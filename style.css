@@ -176,6 +176,10 @@ article h2>a:active {
 	padding-left: 20px;
 }
 
+.entry p {
+	margin-top: 0.5em;
+}
+
 article h2>a:hover {
 	color: #696969;
 }
