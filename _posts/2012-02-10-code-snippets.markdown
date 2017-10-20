@@ -4,7 +4,7 @@ title: Code Snippets
 tags: [ test, code ]
 ---
 
-(here is a link)[{{site.baseurl}}/tags]
+[here is a link]({{site.baseurl}}/tags)
 
 ```java
 public static void main(string[] args) {
