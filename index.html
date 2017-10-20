@@ -19,13 +19,15 @@ title: Home
         </header>
 	
 		<div class="entry">
-            {% capture content_words %} 
-                {{ post.content | number_of_words }} 
+            {% capture content_chars %} 
+                {{ post.content | size }} 
             {% endcapture %} 
             
-            {{ post.content | markdownify | strip_html | truncate: 200, '... <p><a href="{{site.baseurl}}{{ post.url }}">Read more <i class="typcn typcn-arrow-right"></i></a></p>' }}
-                
-           
+            {{ post.content | markdownify | strip_html | truncate: 200 }}
+
+            {% if content_chars > 200 %}
+                <p><a href="{{site.baseurl}}{{ post.url }}">Read more <i class="typcn typcn-arrow-right"></i></a></p>
+            {% endif %}
         </div>
 
 	</article>
