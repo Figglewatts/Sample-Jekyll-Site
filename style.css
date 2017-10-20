@@ -120,6 +120,7 @@ nav {
 	width: 150px;
 	min-width: 150px;
 	text-align: left;
+	font-size: 16px;
 }
 
 nav a,
@@ -193,4 +194,11 @@ section address {
 
 .more {
 	margin-left: 80%;
+}
+
+@media (orientation: portrait) {
+	body {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 }
