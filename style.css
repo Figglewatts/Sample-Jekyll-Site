@@ -199,7 +199,7 @@ blockquote {
 	border-left: 2px solid #bbb;
 	padding-left: 10px;
 	margin: 1.5em 10px;
-	quotes: "\201C""\201D""\2018""\2019";
+	quotes: "\201C""\201D";
   }
 blockquote:before {
 	color: #252525;
