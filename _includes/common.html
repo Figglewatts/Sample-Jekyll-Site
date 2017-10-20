@@ -15,14 +15,14 @@ The following part extracts all the tags from your posts and sort tags, so that 
 The following part removes dulpicated tags and invalid tags like blank tag.
 =======================
 {% endcomment %}
-{% assign tags = "" %}
+{% assign sitetags = "" %}
 {% for tag in rawtags %}
 	{% if tag != "" %}
-		{% if tags == "" %}
-			{% assign tags = tag | split:'|' %}
+		{% if sitetags == "" %}
+			{% assign sitetags = tag | split:'|' %}
 		{% endif %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% unless sitetags contains tag %}
+			{% assign sitetags = sitetags | join:'|' | append:'|' | append:tag | split:'|' %}
 		{% endunless %}
 	{% endif %}
 {% endfor %}

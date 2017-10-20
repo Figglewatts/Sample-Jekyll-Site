@@ -4,8 +4,6 @@ layout: post
 tags: [ test ]
 ---
 
-# <a name="top"></a>Markdown Test Page
-
 * [Headings](#Headings)
 * [Paragraphs](#Paragraphs)
 * [Blockquotes](#Blockquotes)
