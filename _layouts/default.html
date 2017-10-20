@@ -21,53 +21,51 @@
     </head>
 
     <body>
-        <div id="container">
-            <header>
-                <h1><a href="{{site.baseurl}}/">{{ site.name }}</a><hr></h1>
-                
-                    <h4>{{ site.description }}</h4>
-            </header>
+        <header>
+            <h1><a href="{{site.baseurl}}/">{{ site.name }}</a><hr></h1>
+            
+                <h4>{{ site.description }}</h4>
+        </header>
 
-            <nav>
+        <nav>
 
-                <h3>Navigation</h3>
+            <h3>Navigation</h3>
 
-                <ul>
-                    <li><i class="typcn typcn-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
-                    <li><i class="typcn typcn-archive"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
-                    <li><i class="typcn typcn-tags"></i>     <a href="{{site.baseurl}}/tags">Tags</a></li>
-                    <li><i class="typcn typcn-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
-                </ul>
+            <ul>
+                <li><i class="typcn typcn-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
+                <li><i class="typcn typcn-archive"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
+                <li><i class="typcn typcn-tags"></i>     <a href="{{site.baseurl}}/tags">Tags</a></li>
+                <li><i class="typcn typcn-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
+            </ul>
 
-                <h3>My links</h3>
+            <h3>My links</h3>
 
-                <ul>
-                    <li><span class="typcn typcn-social-twitter"></span>   <a href="http://www.twitter.com/figglewatts">Twitter</a></li>
-                    <li><span class="typcn typcn-social-tumbler"></span>   <a href="http://blog.figglewatts.co.uk">Tumblr</a></li>
-                    <li><span class="typcn typcn-social-github"></span>   <a href="http://github.com/figglewatts">Github</a></li>
-                </ul>
-                
-                <h3>Tags</h3>
-                <ul>
-                {% for tag in sitetags %}
-                    <li><i class="typcn typcn-tag"></i><a href="{{site.baseurl}}/tags/#{{ tag | slugify }}"> {{ tag }} </a></li>
-                {% endfor %}
-                </ul>
-            </nav>
+            <ul>
+                <li><span class="typcn typcn-social-twitter"></span>   <a href="http://www.twitter.com/figglewatts">Twitter</a></li>
+                <li><span class="typcn typcn-social-tumbler"></span>   <a href="http://blog.figglewatts.co.uk">Tumblr</a></li>
+                <li><span class="typcn typcn-social-github"></span>   <a href="http://github.com/figglewatts">Github</a></li>
+			</ul>
+			
+			<h3>Tags</h3>
+			<ul>
+			{% for tag in sitetags %}
+				<li><i class="typcn typcn-tag"></i><a href="{{site.baseurl}}/tags/#{{ tag | slugify }}"> {{ tag }} </a></li>
+			{% endfor %}
+			</ul>
+        </nav>
 
-            <main>
+        <main>
 
-                {{ content }}
+            {{ content }}
 
-            </main>
+        </main>
 
-            <footer>
-                <hr />
-                <p>&copy; <time>2017</time> {{ site.author }}</p>
-            </footer>
+        <footer>
+            <hr />
+            <p>&copy; <time>2017</time> {{ site.author }}</p>
+        </footer>
 
-            <script src="{{site.baseurl}}/scripts.js"></script>
-        </div>
+        <script src="{{site.baseurl}}/scripts.js"></script>
     </body>
 
 </html>
