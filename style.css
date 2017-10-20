@@ -115,7 +115,6 @@ main {
 	display: flex;
     flex-direction: column;
     margin-right: 210px;
-    min-height: 100vh;
 }
 
 nav {
