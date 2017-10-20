@@ -30,10 +30,10 @@ title: Home
             {% endif %}
             <br>
             <span class="share">
-                <i class="fa fa-share-alt fa-fw"></i><i class="fa fa-arrow-right fa-fw"></i>
+                <i class="fa fa-share-alt fa-fw"></i><span class="spacer"></span>
                 <a href="https://twitter.com/intent/tweet?text={{post.title}}&url={{ site.url }}{{ site.baseurl }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter fa-fw"></i></a>
                 <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-official fa-fw"></i></a>
-                <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-googleplus-official fa-fw"></i></a>
+                <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-official fa-fw"></i></a>
                 <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ site.baseurl }}{{ post.url }}&name={{post.title}}&description={{post.excerpt | strip_html | truncate_words: 30}}" rel="nofollow" target="_blank" title="Share on Tumblr"><i class="fa fa-tumblr-square"></i></a>
                 <a href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ post.url }}&title={{post.title}}" rel="nofollow" target="_blank" title="Share on Reddit"><i class="fa fa-reddit"></i></a>
             </span>
