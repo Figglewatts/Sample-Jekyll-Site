@@ -33,13 +33,20 @@
                 <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
             </ul>
 
-            <h3>More about me</h3>
+            <h3>My links</h3>
 
             <ul>
                 <li><i class="icon-link"></i>   <a href="#">Link 1</a></li>
                 <li><i class="icon-link"></i>   <a href="#">Link 2</a></li>
                 <li><i class="icon-link"></i>   <a href="#">Link 3</a></li>
-            </ul>
+			</ul>
+			
+			<h3>Tags</h3>
+			<ul>
+			{% for tag in tags %}
+				<li><a href="#{{ tag | slugify }}"> {{ tag }} </a></li>
+			{% endfor %}
+			</ul>
         </nav>
 
         <main>
@@ -50,7 +57,7 @@
 
         <footer>
             <hr />
-            <p>&copy; <time>2012</time> {{ site.author }}</p>
+            <p>&copy; <time>2017</time> {{ site.author }}</p>
         </footer>
 
         <script src="{{site.baseurl}}/scripts.js"></script>
