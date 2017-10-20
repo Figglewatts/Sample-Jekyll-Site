@@ -5,7 +5,7 @@ title: CSS Stylesheet
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IM+Fell+DW+Pica|IM+Fell+English+SC');
 
 html {
-	background-color: rgb(243, 240, 226);
+	background-color: #fff;
 }
 
 body {
@@ -191,7 +191,13 @@ article header h2 {
 }
 
 /* drop caps */
-.entry p:first-child:first-letter {
+.entry 
+h1+p:first-letter,
+h2+p:first-letter,
+h3+p:first-letter,
+h4+p:first-letter,
+h5+p:first-letter,
+h6+p:first-letter {
 	float: left;
 	font-size: 100px;
 }
