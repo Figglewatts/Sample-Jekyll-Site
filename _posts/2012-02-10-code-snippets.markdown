@@ -10,9 +10,23 @@ excerpt: Quick overview on how to post code snippets using Liquid tags and how t
 
 Whenever you need to post a code snippet, use the liquid tags `hilight` and `endhilight` like this:
 
-{% highlight ruby %}
-# some code goes here
-puts "Hello World!"
-{% endhighlight %}
+```java
+public static void main(string[] args) {
+	// test
+	System.out.println("Test test test");
+}
+```
+
+```c++
+class TestHighlight
+{
+private:
+	int _testInt;
+	float _testFloat;
+public:
+	TestHighlight(int i_test, float f_test)
+		: _testInt(i_test), _testFloat(f_test);
+};
+```
 
 Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.
