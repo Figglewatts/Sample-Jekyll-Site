@@ -150,6 +150,7 @@ nav li {
 footer {
 	clear: both;
 	width: 100%;
+	padding-top: 50px;
 }
 
 article {
