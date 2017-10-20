@@ -110,15 +110,15 @@ a:hover {
 }
 
 main {
-	width: 60%;
-	margin-right: 150px;
+	width: 100% - 200px;
+	margin-right: 200px;
 	display: block;
 	font-size: 20px;
 }
 
 nav {
 	float: right;
-	width: 40%;
+	width: 200px;
 	text-align: left;
 	font-size: 16px;
 }
@@ -255,7 +255,6 @@ blockquote p {
 
 	nav {
 		font-size: 28px;
-		width: 40%;
 	}
 
 	code {
