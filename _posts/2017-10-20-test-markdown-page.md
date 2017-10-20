@@ -4,7 +4,9 @@ layout: post
 tags: [ test ]
 ---
 
-* [Headings](#Headings)
+# big heading
+
+* [Headings]({{post.url}}#Headings)
 * [Paragraphs](#Paragraphs)
 * [Blockquotes](#Blockquotes)
 * [Lists](#Lists)
