@@ -31,10 +31,10 @@
             <h3>Navigation</h3>
 
             <ul>
-                <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
-                <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
-                <li><i class="icon-tag"></i>     <a href="{{site.baseurl}}/tags">Tags</a></li>
-                <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
+                <li><i class="typcn typcn-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
+                <li><i class="typcn typcn-archive"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
+                <li><i class="typcn typcn-tags"></i>     <a href="{{site.baseurl}}/tags">Tags</a></li>
+                <li><i class="typcn typcn-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
             </ul>
 
             <h3>My links</h3>
@@ -48,7 +48,7 @@
 			<h3>Tags</h3>
 			<ul>
 			{% for tag in sitetags %}
-				<li><i class="icon-tag"></i><a href="{{site.baseurl}}/tags/#{{ tag | slugify }}"> {{ tag }} </a></li>
+				<li><i class="typcn typcn-tag"></i><a href="{{site.baseurl}}/tags/#{{ tag | slugify }}"> {{ tag }} </a></li>
 			{% endfor %}
 			</ul>
         </nav>

@@ -9,9 +9,9 @@ title: Archive
         <table>
             {% for post in site.posts %}
             <tr>
-                <td><i class="icon-clock"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
+                <td><i class="typcn typcn-calendar"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
                 <td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
-                <td><span class="tag"><i class="icon-tag"></i>
+                <td><span class="tag"><i class="typcn typcn-tags"></i>
                 {% for tag in post.tags %}
                     <a href="{{site.baseurl}}/tags#{{tag | slugify}}" class="tag">{{tag}}</a>
                 {% endfor %}

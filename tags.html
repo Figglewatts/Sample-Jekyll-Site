@@ -12,7 +12,7 @@ title: Tags
 			{% for post in site.posts %}
 				{% if post.tags contains tag %}
 					<tr>
-						<td><i class="icon-clock"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
+						<td><i class="typcn typcn-calendar"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></td>  
 						<td><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></td>
 					</tr>
 				{% endif %}
