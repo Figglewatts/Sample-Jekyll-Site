@@ -5,7 +5,7 @@ title: CSS Stylesheet
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IM+Fell+DW+Pica|IM+Fell+English+SC');
 
 html {
-	background-color: #E4DDBD;
+	background-color: rgb(243, 240, 226);
 }
 
 body {
@@ -53,11 +53,11 @@ body>header h1>a {
 }
 
 body>header h4 {
-	margin-top: -10px;
 	font-size: 1.5em;
 	font-family: 'IM Fell DW Pica';
 	color: #252525;
 	text-align: center;
+	margin-top: -15px;
 }
 
 body>header h1 hr {
@@ -67,11 +67,11 @@ body>header h1 hr {
 	text-align: center;
 	width: 250px;
 	min-width: 250px;
+	margin-top: -10px;
 }
 
 h1,h2,h3,h4 {
 	width: 100%;
-	min-width: 840px;
 }
 
 pre {
@@ -110,9 +110,9 @@ a:hover {
 main {
 
 	width: 75%;
-	min-width: 600px;
 	margin-right: 150px;
 	display: block;
+	font-size: 20px;
 }
 
 nav {
