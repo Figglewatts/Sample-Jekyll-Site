@@ -201,4 +201,12 @@ section address {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
+
+	main {
+		font-size: 28px;
+	}
+
+	nav {
+		font-size: 22px;
+	}
 }
