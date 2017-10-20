@@ -104,6 +104,10 @@ td {
 	padding-left: 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:hover {
 	color: #696969;
 }
