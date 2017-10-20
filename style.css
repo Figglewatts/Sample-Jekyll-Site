@@ -101,6 +101,7 @@ td {
 
 a {
 	text-decoration: none;
+	color: #437DA5;
 }
 
 a:hover {
@@ -191,6 +192,25 @@ article header h2 {
 
 section address {
 	margin-left: 15px;
+}
+
+blockquote {
+	padding: 0.5em 10px;
+	border-left: 2px solid #bbb;
+	padding-left: 10px;
+	margin: 1.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+  }
+blockquote:before {
+	color: #252525;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
 }
 
 #paginator {
