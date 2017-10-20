@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Guest Posts
-category: Meta
 author: John Smith
 tags: [ guest ]
 
