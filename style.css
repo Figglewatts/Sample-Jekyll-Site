@@ -262,6 +262,11 @@ blockquote p {
 	overflow-x: auto;
 }
 
+span.share span.spacer {
+	display: inline-block;
+	margin-left: 15px;
+}
+
 @media (orientation: portrait) {
 	body {
 		padding-left: 2%;
