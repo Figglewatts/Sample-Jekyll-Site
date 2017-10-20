@@ -33,9 +33,10 @@ hr {
 	min-width: 30%;
 }
 
-h1,h2,h3,h4,h5,h6 * {
+h1,h2,h3,h4,h5,h6 {
 	font-family: 'IM Fell English SC', serif;
 	color: #252525;
+	margin-bottom: 0.2ex;
 }
 
 body>header {
@@ -133,6 +134,10 @@ nav a:hover {
 	color: #696969;
 }
 
+nav ul {
+	margin-top: 0px;
+}
+
 nav li {
 	margin-left: -25px;
 	list-style: none;
@@ -152,6 +157,10 @@ article h2>a:visited,
 article h2>a:active {
 	text-decoration: none;
 	color: #437DA5
+}
+
+.entry {
+	padding-left: 20px;
 }
 
 article h2>a:hover {
