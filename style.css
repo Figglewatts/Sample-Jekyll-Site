@@ -78,8 +78,9 @@ h1,h2,h3,h4 {
 pre {
 	padding: 5px;
 	width: 80%;
-	border-left: 2px solid;
+	border-left: 2px solid #bbb;
 	padding-left: 10px;
+	padding-bottom: 8px;
 	margin-left: 20px;
 }
 
