@@ -241,6 +241,10 @@ blockquote p {
 	margin-left: 80%;
 }
 
+.MathJax_Display {
+	overflow-x: auto;
+}
+
 @media (orientation: portrait) {
 	body {
 		padding-left: 2%;
