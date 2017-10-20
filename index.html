@@ -27,6 +27,8 @@ title: Home
 
             {{ post.content | strip_html | truncate: 400 }}
 
+            {% assign content_chars=content_chars | to_integer %}
+
             {% if content_chars | to_integer > 400 %}
                 <p><a href="{{site.baseurl}}{{ post.url }}">Continue reading <i class="fa fa-arrow-right fa-fw"></i></a></p>
             {% endif %}

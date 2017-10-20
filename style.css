@@ -16,6 +16,7 @@ title: CSS Stylesheet
 html {
 	background-color: rgb(255, 253, 234);
 	height: 100%;
+	padding-top: 2%;
 }
 
 body {
@@ -84,7 +85,7 @@ body>header h1 hr {
 }
 
 div#wrapper {
-	min-height: calc(100% - 150px);
+	min-height: calc(100% - 150px - 2%);
 	margin-bottom: -50px;
 }
 
