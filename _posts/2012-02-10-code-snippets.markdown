@@ -2,12 +2,7 @@
 layout: post
 title: Code Snippets
 tags: [ test, code ]
-
-excerpt: Quick overview on how to post code snippets using Liquid tags and how to escape or not escape markdown and HTML in your blog entries. 
-
 ---
-
-Whenever you need to post a code snippet, use the liquid tags `hilight` and `endhilight` like this:
 
 ```java
 public static void main(string[] args) {

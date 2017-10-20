@@ -2,9 +2,6 @@
 layout: post
 title: Using the Web Icons
 tags: [ test, icons ]
-
-excerpt: Quick overview on how to use the Typicon web font icons included with this template. 
-
 ---
 
 This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
