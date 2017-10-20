@@ -23,7 +23,7 @@ title: Home
                 {{ post.content | number_of_words }} 
             {% endcapture %} 
             {% if content_words > 50 %}
-                {{ post.content | markdownify | strip_html | truncatewords: 50 | append: ... }}
+                {{ post.content | markdownify | strip_html | truncatewords: 50 | append: '...' }}
                 <p><a href="{{site.baseurl}}{{ post.url }}">Read more <i class="typcn typcn-arrow-right"></i></a>
             {% else %}
                 {{ post.content | markdownify | strip_html }}
