@@ -23,6 +23,8 @@ title: Home
                 {{ post.content | size }} 
             {% endcapture %} 
 
+            {{ content_chars | inspect }}
+
             {{ post.content | strip_html | truncate: 400 }}
 
             {% if content_chars | to_integer > 400 %}
