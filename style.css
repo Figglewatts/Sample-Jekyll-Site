@@ -110,10 +110,13 @@ a:hover {
 }
 
 main {
-	width: 100% - 200px;
-	margin-right: 200px;
+	width: 100%;
 	display: block;
 	font-size: 20px;
+	display: flex;
+    flex-direction: column;
+    margin-right: 210px;
+    min-height: 100vh;
 }
 
 nav {
