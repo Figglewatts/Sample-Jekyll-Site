@@ -5,7 +5,7 @@ title: CSS Stylesheet
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|IM+Fell+DW+Pica|IM+Fell+English+SC');
 
 html {
-	background-color: rgb(255, 251, 218);
+	background-color: rgb(255, 253, 234);
 }
 
 body {
@@ -154,6 +154,10 @@ footer {
 footer hr {
 	min-width: 10%;
     width: 10%;
+}
+
+footer p {
+	margin-top: 6px;
 }
 
 article {
