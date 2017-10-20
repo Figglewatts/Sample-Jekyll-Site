@@ -7,13 +7,13 @@ layout: default
 <article>
         <header>
             <h2>{{ page.title }}</h2>
-            <span><i class="fa fa-calendar"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
-            <span class="tags"><i class="fa fa-tags"></i>
+            <span><i class="fa fa-calendar fa-fw"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+            <span class="tags"><i class="fa fa-tags fa-fw"></i>
                 {% for tag in page.tags %}
                     <a href="{{site.baseurl}}/tags#{{tag | slugify}}" class="tag">{{tag}}</a>
                 {% endfor %}
             </span><br/>
-            <span class="author"><i class="fa fa-user-circle-o"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+            <span class="author"><i class="fa fa-user-circle-o fa-fw"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
         </header>
 
         <div class="entry">{{ content }}</div>
