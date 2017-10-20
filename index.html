@@ -22,13 +22,8 @@ title: Home
             {% capture content_chars %} 
                 {{ post.content | size }} 
             {% endcapture %} 
-            
-            {% assign preprocessedContent=post.content | replace: '<p>', '%^&p%^&' %}
-            {% assign preprocessedContent=preprocessedContent | replace '</p>', '%^&/p%^&' %}
-            {% assign preprocessedContent=preprocessedContent | markdownify | strip_html | truncate: 200 %}
-            {% assign preprocessedContent=preprocessedContent | replace: '%^&p%^&', '<p>' %}
-            {% assign preprocessedContent=preprocessedContent | replace '%^&/p%^&', '</p>' %}
-            {{ preprocessedContent }}
+
+            {{ post.content | strip_html | truncate: 200 }}
 
             {% if content_chars | to_integer > 200 %}
                 <p><a href="{{site.baseurl}}{{ post.url }}">Read more <i class="typcn typcn-arrow-right"></i></a></p>
