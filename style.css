@@ -113,6 +113,11 @@ code {
 	font-size: 18px;
 }
 
+/* inline code */
+p code {
+	background-color: #E4E4E4;
+}
+
 table {
 	border: none;
 }
@@ -201,6 +206,11 @@ article h2>a:active {
 
 .entry p {
 	margin-bottom: 0.5em;
+}
+
+div.entry div {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 article h2>a:hover {
