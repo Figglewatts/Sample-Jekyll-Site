@@ -88,8 +88,8 @@ body>header h1 hr {
 }
 
 div#wrapper {
-	min-height: calc(100% - 150px - 2%);
-	margin-bottom: -50px;
+	min-height: calc(100% - 200px - 2%);
+	margin-bottom: -100px;
 }
 
 h1,h2,h3,h4 {
@@ -175,12 +175,13 @@ footer {
 	padding-top: 50px;
 	font-size: 16px;
 	text-align: center;
-	height: 50px;
+	height: 100px;
 }
 
 footer hr {
 	min-width: 10%;
-    width: 10%;
+	width: 10%;
+	margin-bottom: 0;
 }
 
 footer p {
@@ -250,7 +251,7 @@ blockquote {
 	padding-left: 10px;
 	margin: 1.5em 10px;
 	quotes: "\201C""\201D";
-  }
+}
 blockquote:before {
 	color: #252525;
 	content: open-quote;
