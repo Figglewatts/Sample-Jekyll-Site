@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'IM Fell English SC', serif;
 	color: #252525;
 	margin-bottom: 0.2ex;
+	margin-top: 1ex;
 }
 
 body>header {
@@ -181,6 +182,7 @@ footer p {
 
 article {
 	margin: 10px;
+	margin-bottom: 20px;
 }
 
 article h2>a,
@@ -196,6 +198,7 @@ article h2>a:active {
 
 .entry p {
 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 article h2>a:hover {
