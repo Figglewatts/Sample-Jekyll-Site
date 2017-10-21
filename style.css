@@ -182,7 +182,7 @@ footer p {
 
 article {
 	margin: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 article h2>a,
@@ -194,6 +194,7 @@ article h2>a:active {
 
 .entry {
 	padding-left: 20px;
+	padding-bottom: 30px;
 }
 
 .entry p {
