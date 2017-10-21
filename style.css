@@ -210,6 +210,7 @@ article h2>a:hover {
 article .entry {
 	margin-left: 15px;
 	padding: 10px;
+	padding-bottom: 30px;
 }
 
 article .entry img {
