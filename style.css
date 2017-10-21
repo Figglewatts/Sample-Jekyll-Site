@@ -89,7 +89,7 @@ body>header h1 hr {
 
 div#wrapper {
 	min-height: calc(100% - 200px - 2%);
-	margin-bottom: -100px;
+	margin-bottom: -50px;
 }
 
 h1,h2,h3,h4 {
